@@ -4,7 +4,8 @@
 
 其认证网页请求方法采用的是 `GET` 方式，因此以下方法仅针对 `GET` 方式，对于 `POST` 请求方法的校园网认证无法使用。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6486187f-57c6-4ea8-bcc0-e046024d40ba/30ea3647-58ef-40fc-8cb4-fba929fe36c9/image.png)
+![image](https://github.com/user-attachments/assets/75040c66-e195-4321-adef-e8ce5a4a4a4a)
+
 
 ## 方法一：（最为简单，仅针对 WxUer)
 
@@ -106,9 +107,9 @@ login_IP = f'http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_m
 
 按`F12`打开开发人员工具，选择`网络（NetWork）`，勾选`保存日志（Preserve log）`，并在页面中进行正常登陆。
 
-!https://joyerliii.github.io/2021-12-03-3/1.png
+![image](https://github.com/user-attachments/assets/3d7b1341-daad-46a3-bdc7-3bc7b6211215)
+![image](https://github.com/user-attachments/assets/9bbb8314-94e4-4658-8079-06dfa2b596ee)
 
-!https://joyerliii.github.io/2021-12-03-3/2.png
 
 登录完成后，在开发者工具中的`网络（NetWork）`子页中寻找`请求url（GET url）`
 
@@ -134,7 +135,8 @@ http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_method=1&user_
 
 大部分的以Linux开发的系统都可以使用 `ip addr` 这条命令获取到设备的大部分网络信息，如果没找到，请尝试 `ifconfig`，都能获取到内网ip。
 
-!https://joyerliii.github.io/2021-12-03-3/4.png
+![image](https://github.com/user-attachments/assets/f62bcc48-b261-482d-a459-bb39c9376a21)
+
 
 随后，请在密密麻麻的字行间找到属于您的路由器的内网ip，我们就只要它，请您记住这个位置，我们要开始截取它了。
 
